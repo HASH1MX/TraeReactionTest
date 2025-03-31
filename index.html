@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaction Time Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-wrapper">
+        <div class="left-panel">
+            <h2>Statistics</h2>
+            <div id="stats-container">
+                <div class="stat-box">
+                    <div class="stat-label">Best Time</div>
+                    <div id="best-time" class="stat-value">--</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">Average Time</div>
+                    <div id="avg-time" class="stat-value">--</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">Last Time</div>
+                    <div id="last-time" class="stat-value">--</div>
+                </div>
+            </div>
+            
+            <h2>Performance Graph</h2>
+            <div id="graph-container">
+                <canvas id="reaction-graph"></canvas>
+                <p class="graph-note">Your last 10 attempts</p>
+            </div>
+            
+            <h2>Settings</h2>
+            <div id="settings-container">
+                <div class="setting-item">
+                    <label for="sound-toggle">Sound Effects</label>
+                    <label class="switch">
+                        <input type="checkbox" id="sound-toggle" checked>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="setting-item">
+                    <label for="difficulty">Difficulty</label>
+                    <select id="difficulty">
+                        <option value="easy">Easy (2-6s)</option>
+                        <option value="medium" selected>Medium (1-4s)</option>
+                        <option value="hard">Hard (0.5-2s)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <h1>Reaction Time Test</h1>
+            <p class="instructions">When the red box turns green, click as quickly as you can.</p>
+            <p class="start-instruction">Click anywhere to start.</p>
+            <div id="reaction-box" class="waiting"></div>
+            <div id="result"></div>
+            <button id="restart-btn" style="display: none;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
