@@ -364,6 +364,9 @@ document.addEventListener('DOMContentLoaded', () => {
             
             if (state === 'waiting') {
                 startTest();
+            } else if (state === 'ready') {
+                // Handle 'too soon' case when spacebar is pressed during ready state
+                handleBoxClick();
             } else if (state === 'testing') {
                 handleBoxClick();
             } else if (state === 'finished') {
