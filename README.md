@@ -2,6 +2,10 @@
 
 A web-based reaction time testing application that measures how quickly you can respond to visual stimuli.
 
+## Live Demo
+
+You can try the application live at [https://hash1mx.github.io](https://hash1mx.github.io)
+
 ## Features
 
 - Test your reaction time with a simple click interface
