@@ -4,7 +4,7 @@ A web-based reaction time testing application that measures how quickly you can 
 
 ## Live Demo
 
-You can try the application live at [https://hash1mx.github.io](https://hash1mx.github.io)
+You can try the application live at [https://hash1mx.github.io/TraeReactionTest](https://hash1mx.github.io/TraeReactionTest)
 
 ## Features
 
