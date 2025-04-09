@@ -22,29 +22,12 @@ A web-based reaction time testing application that measures how quickly you can 
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-- Canvas API for the performance graph
-- Web Audio API for sound effects
+- HTML5.
+- CSS3.
+- JavaScript (Vanilla).
+- Canvas API for the performance graph.
+- Web Audio API for sound effects.
 
-- - HTML5
-- CSS3
-- JavaScript (Vanilla)
-- Canvas API for the performance graph
-- Web Audio API for sound effects
-
-- - HTML5
-- CSS3
-- JavaScript (Vanilla)
-- Canvas API for the performance graph
-- Web Audio API for sound effects
-
-- - HTML5
-- CSS3
-- JavaScript (Vanilla)
-- Canvas API for the performance graph
-- Web Audio API for sound effects
 
 ## License
 
