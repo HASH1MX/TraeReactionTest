@@ -11,6 +11,7 @@ A web-based reaction time testing application that measures how quickly you can 
 - Sound effects (can be toggled on/off)
 - Responsive design for both desktop and mobile devices
 - Keyboard support (spacebar)
+- SPACE BARRRR
 
 ## How to Use
 
