@@ -13,7 +13,7 @@ A web-based reaction time testing application that measures how quickly you can 
 - Keyboard support (spacebar)
 - SPACE BARRRR
 
-## How to Use
+## How to give Test?
 
 1. Click anywhere to start the test
 2. Wait for the red box to turn green
