@@ -21,7 +21,7 @@ A web-based reaction time testing application that measures how quickly you can 
 4. View your reaction time and performance statistics
 5. Click the restart button or the box to try again
 
-## Technologies Used
+## Technologies Used :-
 
 - HTML5.
 - CSS3.
