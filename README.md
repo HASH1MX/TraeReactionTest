@@ -1,4 +1,4 @@
-# Reaction Time Test ( ITS WORKING ) ( COLOU
+# Reaction Time Test ( ITS WORKING ) ( COL
 
 A web-based reaction time testing application that measures how quickly you can respond to visual stimuli.
 
