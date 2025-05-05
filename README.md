@@ -1,4 +1,4 @@
-# Reaction Time Test ( ITS WO
+# Reaction Time Test ( I
 
 A web-based reaction time testing application that measures how quickly you can respond to visual stimuli.
 
